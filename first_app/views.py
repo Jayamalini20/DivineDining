@@ -3,7 +3,7 @@ from django.http import HttpResponse
 from first_app.models import Contact
 from first_app.models import Contact2
 from first_app.models import Res
-# Create your views here.
+
 
 def index(request):
     if request.method=="POST":
